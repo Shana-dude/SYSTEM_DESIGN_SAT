@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production Build outputs
+dist/
+dist-ssr/
+*.local
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# SQLite database local files
+backend/*.db-journal
+backend/*.db-wal
+backend/*.db-shm
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
